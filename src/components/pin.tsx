@@ -4,10 +4,10 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   Card,
-  CardContent,
+  // CardContent,
   CardDescription,
   CardFooter,
-  CardHeader,
+  // CardHeader,
   CardTitle,
 } from "@/components/ui/card"
 import { Badge } from "./ui/badge";
@@ -26,8 +26,8 @@ export const InterviewPin = ({
   InterviewPinProps) => {
 
   const navigate = useNavigate();
-  const [loading, setLoading] = useState(false);
-  const {userId} = useAuth();
+  // const [loading, setLoading] = useState(false);
+  // const {userId} = useAuth();
 
   
 
